@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Laboratorul1</string>
+    <string name="hint_user_field" translatable="false">Introduceti textul</string>
+    <string name="main_btn" translatable="false">Button</string>
+</resources>
