@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFEB3B"
+    android:background="#FDD835"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
@@ -22,7 +22,8 @@
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textColorHint="#33691E" />
 
     <Button
         android:id="@+id/button_result"
@@ -33,6 +34,7 @@
         android:layout_marginTop="125dp"
         android:backgroundTint="#039BE5"
         android:text="@string/main_btn"
+        android:textColor="#212121"
         app:icon="?android:attr/actionModeWebSearchDrawable"
         app:iconTint="@color/white"
         app:strokeColor="#B36464" />
@@ -46,4 +48,5 @@
         android:background="#FFFFFF"
         android:textAlignment="center"
         android:textSize="25sp" />
+
 </RelativeLayout>

@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -24,6 +26,9 @@ class MainActivity : AppCompatActivity() {
         user_field = findViewById(R.id.text_field)
         main_btn = findViewById(R.id.button_result)
         result_info = findViewById(R.id.result_text)
+
+
+
 
         main_btn?.setOnClickListener {
             if(user_field?.text?.toString()?.trim()?.equals("")!!)
